@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f3f4f6;
+}
+
+.main-content{
+    margin-left: 250px;
+    padding: 30px;
+}
+
+/* Header */
+
+.dashboard-header{
+    margin-bottom: 30px;
+}
+
+.dashboard-header h1{
+    margin: 0;
+    color: #111827;
+    font-size: 34px;
+}
+
+.dashboard-header p{
+    margin-top: 10px;
+    color: #6b7280;
+}
+
+/* Cards */
+
+.dashboard-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.card{
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-4px);
+}
+
+.card h3{
+    margin-top: 0;
+    color: #6b7280;
+    font-size: 16px;
+}
+
+.card p{
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* Charts */
+
+.charts-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.chart-container{
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    height: 420px;
+}
+
+.chart-container h2{
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #111827;
+    font-size: 22px;
+}
+
+/* Pie Chart */
+
+.pie-chart-wrapper{
+    width: 260px;
+    height: 260px;
+    margin: auto;
+}
+
+/* Activity Section */
+
+.activity-section{
+    margin-top: 35px;
+}
+
+.section-header{
+    margin-bottom: 25px;
+}
+
+.section-header h2{
+    margin: 0;
+    color: #111827;
+    font-size: 28px;
+}
+
+.section-header p{
+    margin-top: 10px;
+    color: #6b7280;
+}
+
+.activity-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Activity Card */
+
+.activity-card{
+    background: white;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.activity-card:hover{
+    transform: translateY(-4px);
+}
+
+.activity-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity-product{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.activity-product h3{
+    margin: 0;
+    font-size: 20px;
+    color: #111827;
+}
+
+.activity-product p{
+    margin-top: 6px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* Icons */
+
+.activity-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.in-bg{
+    background: #dcfce7;
+    color: #166534;
+}
+
+.out-bg{
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+/* Bottom Stats */
+
+.activity-bottom{
+    margin-top: 22px;
+    display: flex;
+    gap: 40px;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 18px;
+}
+
+.activity-stat{
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-stat small{
+    color: #6b7280;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.activity-stat strong{
+    color: #111827;
+    font-size: 15px;
+}
+
+/* Status Tags */
+
+.stock-in{
+    background: #dcfce7;
+    color: #166534;
+    padding: 8px 18px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.stock-out{
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 8px 18px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
